@@ -28,7 +28,7 @@ fetch('https://fakestoreapi.com/products')
                     titP.textContent = `${e.title}`
                     card.appendChild(titP);
                     let prcP = document.createElement("p");
-                    prcP.textContent = `Price is ${e.price}`
+                    prcP.textContent = `Price is ${e.price} $`
                     card.appendChild(prcP);
                     cards.appendChild(card);
 
